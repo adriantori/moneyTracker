@@ -19,6 +19,9 @@ devDependencies:
   '@types/chart.js':
     specifier: ^2.9.38
     version: 2.9.38
+  '@types/node':
+    specifier: ^20.5.9
+    version: 20.5.9
 
 packages:
 
@@ -39,6 +42,10 @@ packages:
     resolution: {integrity: sha512-rLoHHprkVEDpAXqke/xHalyXR+5Nv+3tfViwT/UnJZ41Wp/XPaSRlJKw2PU3S3tTCqKKyjkYai+VpeHoti79XQ==}
     dependencies:
       moment: 2.29.4
+    dev: true
+
+  /@types/node@20.5.9:
+    resolution: {integrity: sha512-PcGNd//40kHAS3sTlzKB9C9XL4K0sTup8nbG5lC14kzEteTNuAFh9u5nA0o5TWnSG2r/JNPRXFVcHJIIeRlmqQ==}
     dev: true
 
   /bootstrap@5.3.1(@popperjs/core@2.11.8):

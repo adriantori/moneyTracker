@@ -20,16 +20,6 @@ formInput?.addEventListener('submit', (event) => {
     let inputDetails: string = (document.getElementById("detail") as HTMLInputElement).value
     let inputAmount: string = (document.getElementById("amount") as HTMLInputElement).value
     
-    if(inputName == "kuru" && inputDetails == "kuru"){
-        const outputElement = document.getElementById("ulOutput") as HTMLElement;
-        outputElement.innerHTML += `
-        <li class="border border-primary mt-3 p-3" id="kurukuru">
-        <img src="https://kurukuru.morian.icu/e.gif" alt="">
-        </li>
-        `;
-    }else{
-        renderHTML(inputType, inputName, inputDetails, inputAmount, lastId);
-    }
-    
+    renderHTML(inputType, inputName, inputDetails, inputAmount, lastId);
 });
 

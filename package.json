@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@types/bootstrap": "^5.2.6",
-    "@types/chart.js": "^2.9.38"
+    "@types/chart.js": "^2.9.38",
+    "@types/node": "^20.5.9"
   }
 }
